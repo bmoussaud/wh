@@ -7,5 +7,5 @@ setup(name="microservices",
       platforms = ["any"],
       license = "BSD",
       packages = find_packages(),
-      install_requires = ["Flask==0.10.1", "requests==2.20.0", "github-webhook==1.0.3" ],
+      install_requires = ["Flask==1.0", "requests==2.20.0", "github-webhook==1.0.3" ],
       )
