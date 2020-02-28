@@ -13,10 +13,6 @@ def hello_world():
 @webhook.hook()        # Defines a handler for the 'push' event
 def on_push(data):
     print("Got push with: {0}".format(data))
-    print(data)
-    print(type(data))
-    ret={'message','ok'}
-    return json.dump(ret)
 
 if __name__ == "__main__":
     app.run(port=5001, debug=True)
